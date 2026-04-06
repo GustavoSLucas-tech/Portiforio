@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Meu Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<p>
+Projeto desenvolvido com HTML, CSS, JavaScript e Python (FastAPI)
+</p>
+
+<div class="topo">
+
+<img src="foto.jpg" class="foto">
+
+<div>
+
+<h1>Gustavo Saugo</h1>
+
+<p class="cargo">Desenvolvedor Full Stack</p>
+
+</div>
+
+</div>
+
+<button onclick="buscarPerfil()">
+Carregar Perfil
+</button>
+
+<a href="https://github.com/GustavoSLucas-tech" target="_blank">
+
+<button class="github">
+
+🐙 Meu GitHub
+
+</button>
+
+</a>
+
+<div id="resultado"></div>
+
+<div id="loading" style="display:none;">
+Carregando dados...
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
+<p id="statusAPI">
+
+API Status: 🔴 Offline
+
+</p>
